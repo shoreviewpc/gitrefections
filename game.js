@@ -492,7 +492,7 @@ BigAlien = function () {
   this.bridgesH = false;
 
   this.bullets = [];
-  this.delayBeforeBullet = 0;
+  this.delayBeforeBullet = 0; // delay before bullet
 
   this.newPosition = function () {
     if (Math.random() < 0.5) {
